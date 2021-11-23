@@ -1,0 +1,154 @@
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(13,1fr);
+    width: 90%;
+    max-width: 1300px;
+    height: 100%;
+    margin: auto;
+    gap: 10px;
+    overflow: hidden;
+    align-items: center;
+}
+.grid-main {
+    display: grid;
+    grid-template-columns: repeat(13,1fr);
+    grid-template-rows: auto;
+    width: 90%;
+    max-width: 1300px;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
+}
+.container{
+    width: 100%;
+}
+h1 {
+    font-family: cuprum;
+    grid-template-columns: 5/8;
+    color:black
+}
+
+h3 {
+    font-family: cuprum;
+    color: black;
+}
+
+.image-logo {
+    height: 150px;
+    width:150px;
+    grid-column: 13;
+    align-items: flex-start;
+    border-radius: 100%;
+}
+.botonera {
+    display: grid;
+    grid-template-rows: 3;
+	margin-left: 8px;
+	font-weight: 700;
+	font-size: 23px;
+    grid-column: 12;
+    list-style: none;
+    grid-column: 13;
+    font-family: cuprum;
+}
+
+.presentacion {
+    grid-column:1/8;
+    font-size: 50px;
+}
+.image-main {
+    grid-column:13;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 40%;
+ }
+ .image-main-blue {
+    width:600px;
+    height: 600px;
+    border-radius: 20%;
+}
+
+.redSocial {
+    grid-column: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    position: static;
+}
+
+.email {
+    color: #023B9B;
+}
+.instagram {
+    color: #023B9B;
+}
+.tiktok {
+    color: #023B9B;
+}
+
+.down-row{
+    grid-column: 13;
+    font-family: cuprum;
+}
+.image-productos1 {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+    grid-column: 5;
+    grid-row: 5;
+}
+.bandanas {
+    width:300px;
+    height: 300px;
+    border-radius: 20%;
+}
+.title-productos1 {
+    grid-column: 5;
+    grid-row: 5;
+    text-align: center;
+    font-size: 10px;
+    font-family: heebo;
+    background-color: grey
+}
+.image-productos2 {
+    grid-column: 8/9;
+    grid-row: 5/6;
+}
+.cuchas {
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+}
+.image-productos3 {
+    grid-column: 5/6;
+    grid-row: 8/9;
+}
+.cojines {
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+}
+.image-productos4 {
+    grid-column: 8/9;
+    grid-row: 8/9;
+}
+.mantas {
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+}
+.form-input {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.25rem;
+}
