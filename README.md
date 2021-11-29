@@ -1,2 +1,2 @@
 # seed
-This is my website. Blue
+Sitio Web. Tienda de la marca 'guaublue' de Bandanas, Cuchas, Cojines y Mantas para Perros.
